@@ -148,7 +148,7 @@ nav .fa{
 
 @media(max-width: 700px){
     .header{
-        min-height: 140vh;
+        min-height: 100vh;
     }
 
     .text-box h1{
@@ -228,7 +228,7 @@ nav .fa{
     justify-content: space-between;
 }
 
-.courses-col{
+.course-col{
     flex-basis: 31%;
     background: #fff3f3;
     border-radius: 10px;
@@ -238,7 +238,7 @@ nav .fa{
     transition: 0.25s;
 }
 
-.courses-col p{
+.course-col p{
     text-align: justify;
     color: #332c2c;
     font-size: 0.8rem;
@@ -247,13 +247,13 @@ nav .fa{
     padding: 10px;
 }
 
-.courses-col h3{
+.course-col h3{
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
 }
 
-.courses-col:hover{
+.course-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.25);
     cursor: pointer;
 }
