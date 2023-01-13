@@ -388,13 +388,16 @@ nav .fa{
     text-align: left;
 }
 
+.testimonials-col div p{
+    text-align: justify;
+}
+
 .testimonials-col .fa{
     color: #f44336;
 }
 
 @media (max-width: 700px){
     .testimonials-col img{
-        
         margin-left: 0px;
         margin-right: 15px;
         
@@ -570,6 +573,10 @@ nav .fa{
     color: #222;
     font-weight: 600;
     margin: 30px 0;
+}
+
+.blog-left p{
+    text-align: justify;
 }
 
 .blog-right{
