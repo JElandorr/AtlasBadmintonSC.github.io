@@ -331,7 +331,7 @@ nav .fa{
 .facilities-col{
     flex-basis: 31%;
     border-radius: 10px;
-    margin-bottom: 5%;
+    margin: auto;
     text-align: left;
 }
 
@@ -406,7 +406,7 @@ nav .fa{
     margin: 100px auto;
     width: 80%;
     background-image: 
-    linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/images/banner2.jpg);
+    linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://dotorg.brightspotcdn.com/dims4/default/20223f6/2147483647/strip/true/crop/1196x673+85+4/resize/1200x675!/quality/90/?url=http%3A%2F%2Fsoi-brightspot.s3.amazonaws.com%2Fdotorg%2F4a%2Fbf%2F83da10574b5e96940f126e5cb288%2F1300x680-badminton.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
