@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Atlas Badminton Sport Club</title>
+    </head>
+    <body>
+        <!-- --------------HEADER---------------Start -->
+
+        <section class="sub-header contact_us">
+            <nav>
+                <div class="logo">
+                    <div class="logo-script">
+                        <a href="index.html">
+                            <img src="/images/shuttlecock_by_flaticon.png" alt="logo" width="80px" height="80px" />
+                        </a>
+                        <p>Atlas Badminton SC - Stara Zagora</p>
+                    </div>
+                </div>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="closeMenu()"></i>
+                    <ul>
+                        <li><a href="index.html" id="nav_HOME">HOME</a></li>
+                        <!-- <li><a href="" id="nav_NEWS">NEWS</a></li> -->
+                        <!-- <li><a href="" id="nav_EVENTS">EVENTS</a></li> -->
+                        <li><a href="courses.html" id="nav_COURSES">COURSES</a></li>
+                        <li><a href="blog.html" id="nav_BLOG">BLOG</a></li>
+                        <li><a href="about.html" id="nav_ABOUT">ABOUT</a></li>
+                        <li><a href="contact_us.html" id="nav_CONTACT">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Contact Us</h1>
+        </section>
+
+        <!-- --------------HEADER---------------Start -->
+        <!-- --------------CONTACT---------------Start -->
+        <section class="location">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47126.32995004854!2d25.58984231196305!3d42.419313184243215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a8690b30e83935%3A0x74baed1462879fb1!2z0KHRgtCw0YDQsCDQl9Cw0LPQvtGA0LA!5e0!3m2!1sbg!2sbg!4v1673593556102!5m2!1sbg!2sbg"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+        </section>
+        <section class="contactus">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>100 General Gurko Str.</h5>
+                            <p>Stara Zagora, 6000, Bulgaria</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>+1 234 567 890</h5>
+                            <p>Workdays between 10AM and 6PM</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>
+                            <h5>atlasbdmntn@gmail.com</h5>
+                            <p>Feel free to e-mail us</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <form action="form-handler.php" method="post">
+                        <input name="name" type="text" placeholder="Enter your name" rewuired />
+                        <input name="email" type="email" placeholder="Enter email address" rewuired />
+                        <input name="subject" type="text" placeholder="Enter subject" rewuired />
+                        <textarea name="message" rows="8" placeholder="Your message" required></textarea>
+                        <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- --------------CONTACT---------------End -->
+
+        <!-- --------------FOOTER---------------Start -->
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit libero numquam quibusdam suscipit
+                voluptates laboriosam rerum veniam,<br />
+                debitis ullam, provident similique et voluptatum doloribus ut officia. Qui sed non soluta?
+            </p>
+            <div class="icons elandorr">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p class="elandorr">WebCoded by Elandorr<i class="fa fa-copyright"></i></p>
+        </section>
+
+        <!-- --------------FOOTER---------------End -->
+
+        <script src="app.js"></script>
+    </body>
+</html>
